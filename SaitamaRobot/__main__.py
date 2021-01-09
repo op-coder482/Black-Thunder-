@@ -228,7 +228,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
                     [
                         InlineKeyboardButton(
-                            text="☑️ Add Saitama to your group",
+                            text="☑️ Add Black Thunder to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username),
                         )
@@ -240,7 +240,7 @@ def start(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="🔔 Updates Channel",
-                            url="https://t.me/OnePunchUpdates",
+                            url="https://t.me/Blackthunder1_updates",
                         ),
                     ],
                     [
@@ -252,7 +252,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="🗄 Source code",
-                            url="https://github.com/AnimeKaizoku/SaitamaRobot",
+                            url="https://github.com/op-coder482/Black-Thunder-",
                         )
                     ],
                 ]),
